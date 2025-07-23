@@ -1,6 +1,5 @@
 import React from 'react'
 import Link from 'next/link'
-import { ChevronRight } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import Image from 'next/image'
 import { TextEffect } from '@/components/ui/text-effect'
@@ -49,7 +48,7 @@ export default function HeroSection() {
                                     speedSegment={0.3}
                                     as="h1"
                                     className="mt-8 max-w-2xl text-balance text-5xl font-medium md:text-6xl lg:mt-16">
-                                    Build and Ship 10x faster with NS
+                                    🔥 Forge Smarter Notes. Code Better.
                                 </TextEffect>
                                 <TextEffect
                                     per="line"
@@ -58,7 +57,7 @@ export default function HeroSection() {
                                     delay={0.5}
                                     as="p"
                                     className="mt-8 max-w-2xl text-pretty text-lg">
-                                    Tailwindcss highly customizable components for building modern websites and applications that look and feel the way you mean it.
+                                   Supercharge your workflow with NoteForge — the smartest way to capture, organize, and link dev notes, code snippets, and technical insights.
                                 </TextEffect>
 
                                 <AnimatedGroup
@@ -82,7 +81,7 @@ export default function HeroSection() {
                                             size="lg"
                                             className="rounded-xl px-5 text-base">
                                             <Link href="#link">
-                                                <span className="text-nowrap">Start Building</span>
+                                                <span className="text-nowrap">Start Forging</span>
                                             </Link>
                                         </Button>
                                     </div>
@@ -93,7 +92,7 @@ export default function HeroSection() {
                                         variant="ghost"
                                         className="h-10.5 rounded-xl px-5 text-base">
                                         <Link href="#link">
-                                            <span className="text-nowrap">Request a demo</span>
+                                            <span className="text-nowrap">See it in action</span>
                                         </Link>
                                     </Button>
                                 </AnimatedGroup>
